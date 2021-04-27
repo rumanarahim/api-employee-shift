@@ -1,0 +1,8 @@
+# api/fixtures/reviews.yaml
+App\Entity\Review:
+    review_{1..200}:
+        rating: <numberBetween(0, 5)>
+        body: <text()>
+        author: <name()>
+        publicationDate: <dateTime()>
+        book: '@book_*'

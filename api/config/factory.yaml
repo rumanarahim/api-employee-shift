@@ -1,0 +1,3 @@
+services:
+    App\Resource\Factory\EmployeesForShift\EmployeesForShiftInputDTOFactory:
+        public: true
